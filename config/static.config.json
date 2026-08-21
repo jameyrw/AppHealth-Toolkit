@@ -1,0 +1,32 @@
+{
+  "eventIdTable": {
+    "ScriptStart": 1000,
+    "ScriptEndSuccess": 1001,
+    "ScriptEndFailure": 1002,
+    "ConfigLoaded": 1003,
+
+    "AllHttpChecksComplete": 2000,
+    "HttpCheckFailed": 2001,
+    "HttpCheckComplete": 2002,
+    
+    "AllCertChecksComplete": 3000,
+    "CertExpiringNotify": 3001,
+    "CertCheckSuccess": 3002,
+    
+    "AlertSent": 4000,
+    "AlertSendFailed": 4001,
+    
+    "StateFileUpdated": 5000,
+    "StateUpdateFailed": 5001,
+    "StateFileNotFound": 5002,
+    
+    "ConfigLoadFailed": 9001,
+    "DependencyMissing": 9002,
+    "FileAccessError": 9003
+  },
+  "logDefaults": {
+    "Message": "",
+    "Level": "Verbose",
+    "Tag": ""
+  }
+}

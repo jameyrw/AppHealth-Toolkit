@@ -1,0 +1,15 @@
+{
+  "email": {
+    "to": "",
+    "from": "healthcheck-monitor@example.com",
+    "smtpServer": "smtp.example.com"
+  },
+  "httpChecks": [
+    "https://example.org/health",
+    "https://www.contoso.com/api/status"
+  ],
+  "certificateChecks": [
+    "example.org",
+    "www.contoso.com"
+  ]
+}

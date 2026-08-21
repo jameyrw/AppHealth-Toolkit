@@ -1,0 +1,47 @@
+# Logs and runtime data
+logs/
+*.log
+*.log.json
+*.tmp
+
+# State files
+**/state/
+*_state.json
+
+# Failure payloads
+**/failures/
+
+# PowerShell module cache
+**/__pycache__/
+*.pyc
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Secrets and credentials
+secrets/
+*.secret
+*.key
+*.pfx
+*.p12
+
+# Temporary files
+temp/
+tmp/
+*.bak
+*.swp
+
+# Test results
+TestResults/
+*.trx
+
+# Module binaries
+*.dll
+*.exe
+*.so
+*.dylib
